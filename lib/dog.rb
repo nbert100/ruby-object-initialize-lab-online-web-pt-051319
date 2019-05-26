@@ -6,9 +6,15 @@ def name
   @name
 end
 
-def initialize(dog_breed = "Mutt")
-    @breed = dog_breed
+def initialize(breed = "Mutt")
+   def initialize(breed)
+    @breed = breed
   end
+ 
+  def breed=(breed)
+    @breed = breed
+  end
+ 
   def breed
     @breed
   end
