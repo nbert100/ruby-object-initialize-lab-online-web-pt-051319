@@ -19,3 +19,4 @@ def initialize(breed = "Mutt")
     @breed
   end
 end
+end
