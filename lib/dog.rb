@@ -6,5 +6,10 @@ def name
   @name
 end
 
-def breed()
+def breed(dog_breed = "Mutt")
+    @breed = dog_breed
+  end
+  def breed
+    @breed
+  end
 end
